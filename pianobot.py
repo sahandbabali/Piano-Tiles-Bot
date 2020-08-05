@@ -33,15 +33,15 @@ def imggrab(boxema):
     return(a.sum())
     
 while True: 
-    if(imggrab(cor.box1) == 23):
+    if(imggrab(cor.box1) == 21):
         clickgen(cor.point1)
         
-    if(imggrab(cor.box2) == 23):
+    if(imggrab(cor.box2) == 21):
         clickgen(cor.point2)
         
-    if(imggrab(cor.box3) == 23):
+    if(imggrab(cor.box3) == 21):
         clickgen(cor.point3)
         
-    if(imggrab(cor.box4) == 23):
+    if(imggrab(cor.box4) == 21):
         clickgen(cor.point4)
         
